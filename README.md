@@ -1,3 +1,6 @@
+<img width="1276" height="595" alt="image" src="https://github.com/user-attachments/assets/e1eabbc2-e27e-476c-916c-21f49b7fca00" />
+
+
 # 📌 Project Description
 
 This project is a **simple interactive web interface** that includes two main components:
@@ -17,6 +20,22 @@ This project is a **simple interactive web interface** that includes two main co
 - **HTML5** → page structure.  
 - **CSS3** → styling, layout, and animations.  
 - **JavaScript** → sidebar toggle and future interactivity.  
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally:
+
+1. Open **Visual Studio Code**.  
+2. Create two files:  
+   - `index.html`  
+   - `Dashboard.css`  
+3. Copy the code from this repository into the corresponding files.  
+4. Install the **Live Server** extension in VS Code (if not already installed).  
+5. Right–click on `index.html` and choose **Open with Live Server**.  
+
+Your project should now open in the browser. 🎉  
 
 ---
 
