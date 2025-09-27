@@ -2,7 +2,6 @@ body {
     background-color: rgb(21, 136, 231);
 }
 
-/* القائمة الجانبية */
 .sidebar {
     width: 250px;
     height: 100%;
@@ -14,12 +13,10 @@ body {
     padding-top: 20px;
 }
 
-/* عند استهداف القائمة تظهر */
 .sidebar:target {
     left: 0;
 }
 
-/* تنسيق الروابط */
 .sidebar a {
     display: block;
     color: white;
@@ -31,7 +28,6 @@ body {
     background: #444;
 }
 
-/* زر فتح القائمة */
 .menu-btn {
     position: fixed;
     left: 10px;
@@ -80,7 +76,7 @@ body::before{
     z-index: -1;
     margin: -100px 50px 50px -150px;
 }
-/* ضبط الحاوية في منتصف الشاشة */
+
 .container {
     width: 350px;
     height: 200px;
@@ -91,7 +87,6 @@ body::before{
     transform: translate(-50%, -50%);
 }
 
-/* البطاقة */
 .card {
     width: 100%;
     height: 100%;
@@ -100,12 +95,10 @@ body::before{
     transition: transform 0.6s ease-in-out;
 }
 
-/* عند تمرير الفأرة تدور البطاقة */
 .container:hover .card {
     transform: rotateY(180deg);
 }
 
-/* الجهتان الأمامية والخلفية */
 .card-front, .card-back {
     width: 100%;
     height: 100%;
@@ -122,20 +115,17 @@ body::before{
     padding: 15px;
 }
 
-/* الجهة الأمامية */
 .card-front {
     background: darkred;
     color: white;
 }
 
-/* الجهة الخلفية */
 .card-back {
     background: linear-gradient(45deg, #424242, #616161);
     color: white;
     transform: rotateY(180deg);
 }
 
-/* شريط أسود في الخلف */
 .black-bar {
     width: 100%;
     height: 40px;
@@ -143,7 +133,6 @@ body::before{
     margin-top: 10px;
 }
 
-/* مربع الـ CVV */
 .cvv-box {
     background: white;
     color: black;
